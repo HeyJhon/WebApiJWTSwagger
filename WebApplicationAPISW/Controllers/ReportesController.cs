@@ -15,7 +15,7 @@ namespace WebApplicationAPISW.Controllers
         {
             return View();
         }
-
+        //Genera un reporte en excel a partir de una lista de objetos
         [HttpGet]
         public  ActionResult GenerarExcelReporte()
         {
